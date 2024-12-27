@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/color-palette-frontend/node_modules
+/color-palette-frontend/.pnp
+/color-palette-frontend/.pnp.*
+/color-palette-frontend/.yarn/*
+/color-palette-frontend/!.yarn/patches
+/color-palette-frontend/!.yarn/plugins
+/color-palette-frontend/!.yarn/releases
+/color-palette-frontend/!.yarn/versions
+
+# testing
+/color-palette-frontend/coverage
+
+# next.js
+/color-palette-frontend/.next/
+/color-palette-frontend/out/
+
+# production
+/color-palette-frontend/build
+
+# misc
+/color-palette-frontend.DS_Store
+/color-palette-frontend*.pem
+
+# debug
+/color-palette-frontend/npm-debug.log*
+/color-palette-frontend/yarn-debug.log*
+/color-palette-frontend/yarn-error.log*
+/color-palette-frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/color-palette-frontend.env*
+
+# vercel
+/color-palette-frontend.vercel
+
+# typescript
+/color-palette-frontend/*.tsbuildinfo
+/color-palette-frontend/next-env.d.ts
+
+# others
+/color-palette-frontend/eslint.config.mjs
+/color-palette-frontend/next.config.ts
+
+# python
+/image-color-palette/.venv
